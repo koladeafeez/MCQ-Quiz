@@ -1,0 +1,27 @@
+{
+  "name": "movieflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "netlify-start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
+    "netlify-build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "10.16.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "netlify-lambda": "2.0.1",
+    "nodemon": "^1.19.4",
+    "serverless-http": "2.5.0"
+  }
+}
